@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 function UserGreeting(props) {
-// TODO
-// change both statements to variables. 
-return(props.isLoggedIn ? <h3>welcome {props.username}</h3> : <h3>pls login</h3>)
+    const welcomeMsg = <h3 className="welcomeMsg">welcome {props.username}</h3>
+    const loginMsg = <h3 className="plsLogin">pls login</h3> 
+return props.isLoggedIn ? welcomeMsg : loginMsg;
 }
 
 UserGreeting.propTypes = {
