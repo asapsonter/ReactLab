@@ -1,7 +1,7 @@
 
 
 import './App.css'
-import UserGreeting from './components/UserGreeting.jsx';
+import List from './components/List.jsx';
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="card">
-        <UserGreeting isLoggedIn={true} username=" sam"/>
+        <List/>
       </div>
     </>
   );
