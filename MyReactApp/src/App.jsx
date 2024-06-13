@@ -1,7 +1,7 @@
 
 
 import './App.css'
-import ClickEvent from './components/clickEvent.jsx';
+import MyComponent from './components/usestate.jsx';
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="card">
-        <ClickEvent/>
+        <MyComponent/>
       </div>
     </>
   );
